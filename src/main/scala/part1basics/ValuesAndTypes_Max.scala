@@ -1,6 +1,6 @@
 package com.rockthejvm.part1basics
 
-object ValuesAndTypes {
+object ValuesAndTypes_Max {
 
   // values
   val meaningOfLife: Int = 42 // const int meaningOfLife = 42

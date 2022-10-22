@@ -2,7 +2,7 @@ package part1basics
 
 import scala.annotation.tailrec
 
-object Recursion {
+object Recursion_Max {
 
   // "repetition" = recursion
   def sumUntil(n: Int): Int = {

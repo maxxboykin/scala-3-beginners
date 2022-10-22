@@ -2,7 +2,7 @@ package com.rockthejvm.part1basics
 
 import scala.annotation.tailrec
 
-object Functions {
+object Functions_Max {
 
   // function = reusable piece of code that you can invoke with some arguments and return a result
   def aFunction(a: String, b: Int): String =

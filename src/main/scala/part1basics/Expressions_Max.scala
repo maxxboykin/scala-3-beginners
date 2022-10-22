@@ -1,6 +1,6 @@
 package com.rockthejvm.part1basics
 
-object Expressions {
+object Expressions_Max {
 
   // expressions are structures that can be evaluated to a value
   val meaningOfLife = 40 + 2
