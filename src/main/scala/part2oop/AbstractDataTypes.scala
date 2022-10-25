@@ -35,7 +35,7 @@ object AbstractDataTypes {
   }
 
   // practical difference between abstract classes and traits
-  // a class can only extend one other class
+  // a class can only extend one other abstract class
   // but a class can extend multiple traits
 
   trait ColdBlooded
