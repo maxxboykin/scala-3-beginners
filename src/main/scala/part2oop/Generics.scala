@@ -18,7 +18,7 @@ object Generics {
   }
 
   val listOfIntegers: MyList[Int] = new NonEmpty[Int](1, new NonEmpty[Int](2, new Empty[Int]))
-  val listOfStrings: MyList[String] = new NonEmpty[String]("Scala", new NonEmpty[String("Java", new Empty[String]))
+  val listOfStrings: MyList[String] = new NonEmpty[String]("Scala", new NonEmpty[String]("Java", new Empty[String]))
 
   val firstNumber: Int = listOfIntegers.head
   val adding = firstNumber + 3
@@ -29,7 +29,7 @@ object Generics {
   // generic methods
   object MyList {
     def from2Elements[A](elem: A, elem2: A): MyList[A] = {
-      new NonEmpty[A](elem1, new NonEmpty[A](elem2, new Empty[A]))
+      new NonEmpty[A](elem, new NonEmpty[A](elem2, new Empty[A]))
     }
   }
 
