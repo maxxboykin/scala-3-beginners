@@ -39,6 +39,22 @@ class Cons(override val head: Int, override val tail: LinkedList) extends Linked
   }
 }
 
+/**
+ * Exercise: LinkedList extension
+ * 1. Generic trait Predicate[T] with a little method test(T) => Boolean
+ * 2. Generic trait Transformer[A, B] with a method transform(A) => B
+ * 3. LinkedList:
+ * - map(transformer) => LinkedList
+ * - filter(predicate) => LinkedList
+ * - flatMap(transform from A to LinkedList[B]) => LinkedList[B]
+ * class EvenPredicate extends Predicate[Int]
+ * class StringToIntTransformer extends Transformer[String, Int]
+ *
+ * [1,2,3].map(n * 2) = [2,4,6]
+ * [1,2,3,4].filter(n % 2) = [2,4]
+ * [1,2,3].flatMap(n => [n, n+1]) => [1,2,2,3,3,4]
+ */
+
 //class Node {
 //  val value: Int
 //  val next: Node
